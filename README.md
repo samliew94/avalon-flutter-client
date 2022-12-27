@@ -1,16 +1,18 @@
-# avalonweb
+# Avalon Web (Client)
 
-A new Flutter project.
+![](screenshots/home.png)
+![](screenshots/lobby.png)
+![](screenshots/settings.png)
+![](screenshots/game-cover.png)
+![](screenshots/game-content-1.png)
+![](screenshots/game-content-2.png)
+![](screenshots/game-content-3.png)
+![](screenshots/game-content-4.png)
+![](screenshots/game-content-5.png)
 
-## Getting Started
+## Notes
+1. If Server IP field is blank, auto set to localhost.
+2. Only Oberon and Mordred can be activated/deactivated.
+3. Players who rolled a power role such as Merlin will not get the same role twice. The player may still roll another power role.
+4. Min player is 5. Max is 10.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
