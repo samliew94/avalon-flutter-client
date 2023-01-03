@@ -148,7 +148,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
     var body = jsonDecode(response.body);
 
-    if (body["isHost"] != null && body["isHost"]) {
+    if (body["isHost"] != null && body["isHost"] == 1) {
       Navigator.push(
         context,
         MaterialPageRoute(

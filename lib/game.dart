@@ -1,14 +1,10 @@
 import 'dart:convert';
 
 import 'package:avalonweb/rpgicon.dart';
-import 'package:flip_card/flip_card.dart';
-import 'package:flip_card/flip_card_controller.dart';
 import 'package:flutter/material.dart';
-import 'package:fluttericon/rpg_awesome_icons.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:http/http.dart' as http;
 import 'package:http/http.dart';
-import 'package:simple_gradient_text/simple_gradient_text.dart';
 
 import 'alert_ok.dart';
 import 'config.dart';
