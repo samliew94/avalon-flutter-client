@@ -77,15 +77,15 @@ class _MyHomePageState extends State<MyHomePage> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                TextFormField(
-                  textAlign: TextAlign.center,
-                  controller: ipController,
-                  decoration: const InputDecoration(
-                    border: OutlineInputBorder(),
-                    hintText: 'Server IP',
-                  ),
-                ),
-                const SizedBox(height: 20),
+                // TextFormField(
+                //   textAlign: TextAlign.center,
+                //   controller: ipController,
+                //   decoration: const InputDecoration(
+                //     border: OutlineInputBorder(),
+                //     hintText: 'Server IP',
+                //   ),
+                // ),
+                // const SizedBox(height: 20),
                 TextFormField(
                   textAlign: TextAlign.center,
                   controller: playerController,
@@ -108,7 +108,7 @@ class _MyHomePageState extends State<MyHomePage> {
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           if (_formKey.currentState!.validate()) {
-            Config.serverIp = ipController.text;
+            // Config.serverIp = ipController.text;
             addPlayer(playerController.text);
           }
         },
